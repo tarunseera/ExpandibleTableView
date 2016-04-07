@@ -19,7 +19,7 @@
     [super viewDidLoad];
     _arrExpanded = [NSMutableArray array];
     _arrItems = [NSMutableArray array];
-    NSString *strJson = @"{  \"childsList\" : [    {\"childsList\" : [      ],            \"groupName\" : \"GRoup2\"},{\"childsList\":[ {\"childsList\":[],  \"groupName\":\"GRoup3\"},{\"childsList\":[{ \"childsList\":[ ],\"groupName\":\"GRoup4\"},{\"childsList\":[ ],\"groupName\":\"GRoup5\"} ], \"groupName\":\"GRoup6\"}],\"groupName\":\"GRoup7\"},{\"childsList\" : [{ \"childsList\" : [{\"childsList\" : [ { \"childsList\":[ ],\"groupName\":\"GRoup8\" },{ \"childsList\":[ {\"childsList\":[{ \"childsList\":[],\"groupName\":\"GRoup9\" } ], \"groupName\":\"GRoup10\" } ],\"groupName\":\"GRoup11\" },{\"childsList\":[],\"groupName\":\"GRoup12\" } ], \"groupName\" : \"Group13\" }], \"groupName\" : \"Group14\"}], \"groupName\" : \"GRoup15\"}],\"groupName\" : \"group1\"},";
+    NSString *strJson = @"{  \"childsList\" : [    {\"childsList\" : [      ],            \"groupName\" : \"GRoup2\"},{\"childsList\":[ {\"childsList\":[],  \"groupName\":\"GRoup3\"},{\"childsList\":[{ \"childsList\":[ ],\"groupName\":\"GRoup4\"},{\"childsList\":[ ],\"groupName\":\"GRoup5\"} ], \"groupName\":\"GRoup6\"}],\"groupName\":\"GRoup7\"},{\"childsList\" : [{ \"childsList\" : [{\"childsList\" : [ { \"childsList\":[ ],\"groupName\":\"GRoup8\" },{ \"childsList\":[ {\"childsList\":[{ \"childsList\":[],\"groupName\":\"GRoup9\" } ], \"groupName\":\"GRoup10\" } ],\"groupName\":\"GRoup11\" },{\"childsList\":[],\"groupName\":\"GRoup12\" } ], \"groupName\" : \"Group13\" }], \"groupName\" : \"Group14\"}], \"groupName\" : \"GRoup15\"}],\"groupName\" : \"group1\"}";
     
     NSError *error;
     NSData *dataJson = [strJson dataUsingEncoding:NSUTF8StringEncoding];

@@ -3,7 +3,6 @@
 //  AccordianPOCTests
 //
 //  Created by Mac Mini on 14/08/15.
-
 //
 
 #import <UIKit/UIKit.h>
